@@ -1,0 +1,26 @@
+﻿@model SampleDemoMVC.Models.Users
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+@*<form asp-action="AddEditCustomer" role="form">
+
+    <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label asp-for="FirstName" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="LastName" class="form-control" />
+            </div>
+        </div>
+    </div>
+</form>*@
+
+<div style="height:600px;width:auto">
+        <bold-report-viewer id="viewer" report-path="/DemoReports/DemoUsers3.rdl" report-service-url="api/ReportViewer" processing-mode="Remote" report-server-url="http://desktop-ffaakts/ReportsServer/browse/"></bold-report-viewer>
+    </div>

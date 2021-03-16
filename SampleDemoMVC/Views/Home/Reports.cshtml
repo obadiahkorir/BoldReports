@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Reports";
+}
+<style>
+    body, html, #reportviewer {
+        overflow: hidden !important;
+        height: 100%;
+        width: 100%;
+    }
+</style>
+<ej-report-viewer id="reportviewer1" report-service-url="../Home" report-server-url="http://synclapn13996/ReportServer" report-path="/CustomerTesting" processing-mode="Remote" />
+<ej-script-manager></ej-script-manager>
+
